@@ -1,15 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>COVID-19 Statistics</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
-
-        
+    <h1>COVID-19 Statistics</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>Total Cases</th>
+                <th>Active Cases</th>
+                <th>Recovered</th>
+                <th>Deaths</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>USA</td>
+                <td>5,732,123</td>
+                <td>1,432,567</td>
+                <td>4,135,456</td>
+                <td>164,100</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td>3,432,765</td>
+                <td>765,432</td>
+                <td>2,634,567</td>
+                <td>32,766</td>
+            </tr>
+            <tr>
+                <td>Brazil</td>
+                <td>2,876,543</td>
+                <td>453,789</td>
+                <td>2,387,654</td>
+                <td>35,100</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
